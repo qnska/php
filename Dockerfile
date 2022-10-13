@@ -8,8 +8,7 @@ RUN yum clean metadata
 RUN yum install -y php php-{pear,cli,cgi,common,curl,mbstring,gd,mysqlnd,gettext,bcmath,json,xml,fpm,intl,zip}
 
 # update website files
-COPY ./php.zip .
-RUN unzip php.zip -d /var/www/html/
+RUN git clone https://github.com/qnska/php.git /var/www/html
 RUN chown -R apache:apache /var/www
 CMD ["/usr/sbin/httpd","-DFOREGROUND"]
 
