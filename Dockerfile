@@ -8,7 +8,7 @@ RUN yum clean metadata
 RUN yum install -y php php-{pear,cli,cgi,common,curl,mbstring,gd,mysqlnd,gettext,bcmath,json,xml,fpm,intl,zip}
 
 # update website files
-COPY /var/www/html/php/php.zip .
+COPY ./php.zip .
 RUN unzip php7.zip -d /var/www/html/
 RUN chown -R apache:apache /var/www
 CMD ["/usr/sbin/httpd","-DFOREGROUND"]
