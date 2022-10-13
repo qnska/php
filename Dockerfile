@@ -9,7 +9,11 @@ RUN yum install -y php php-{pear,cli,cgi,common,curl,mbstring,gd,mysqlnd,gettext
 
 # update website files
 COPY /var/www/html/php/php.zip .
+<<<<<<< HEAD
 RUN unzip php7.zip -d /var/www/html/
+=======
+RUN unzip web-v1.zip -d /var/www/html/
+>>>>>>> 1f70135449e42b8a76514005fd24a46f84b60628
 RUN chown -R apache:apache /var/www
 CMD ["/usr/sbin/httpd","-DFOREGROUND"]
 
