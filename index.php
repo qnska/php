@@ -52,7 +52,7 @@
             <img src="/img/main2.jpg" class="d-block w-100" alt="main02">
             <div class="container">
               <div class="carousel-caption">
-                <h1>AWS 트레이닝 파트너</h1>
+                <h1>CICDMASTER</h1>
                 <p>AWS 공인 교육 진행</p>
               </div>
             </div>
