@@ -44,7 +44,7 @@
             <div class="container">
               <div class="carousel-caption text-start">
                 <h1>Infra 전문 교육기관</h1>
-                <p>정규 교육과정, 국비지원 과정, 기업 교육</p>
+                <p>AWS 네이티브 CICD</p>
               </div>
             </div>
           </div>
