@@ -6,7 +6,8 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>KGITBANK</title>
+    <!-- <title>KGITBANK</title> -->
+    <title>에너자이조</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
