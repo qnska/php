@@ -1,7 +1,7 @@
 <?php
-    $db_host = 'database-1.cgmics3qdill.ap-southeast-2.rds.amazonaws.com';
+    $db_host = 'terraform-20221018141006336000000003.cgmics3qdill.ap-southeast-2.rds.amazonaws.com';
     $db_user = 'admin';
-    $db_pass = '1qaz2wsx';
+    $db_pass = 'adminpassword';
     $db_name = 'web01';
 
     $con = mysqli_connect($db_host,$db_user,$db_pass,$db_name);
