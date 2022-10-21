@@ -25,7 +25,7 @@
   <body>
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 text-muted">&copy; 2021 KGITBANK, Inc</p>
+        <p class="col-md-4 mb-0 text-muted">&copy; 2022 에너자이조, Inc</p>
           <img src="/img/kg_logo.png" alt="logo" width="140" height="50">
 
         <ul class="nav col-md-4 justify-content-end">

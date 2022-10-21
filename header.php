@@ -58,24 +58,24 @@
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="/index.php" class="nav-link px-2 text-secondary">KGITBANK</a></li>
+              <li><a href="/index.php" class="nav-link px-2 text-secondary">에너자이조</a></li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle px-2 text-white" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">교육과정 소개</a>
+                <a class="nav-link dropdown-toggle px-2 text-white" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">클라우드</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                  <li><a class="dropdown-item" href="#">정규교육 과정</a></li>
-                  <li><a class="dropdown-item" href="#">국비지원 과정</a></li>
-                  <li><a class="dropdown-item" href="#">기업교육</a></li>
+                  <li><a class="dropdown-item" href="#">Cloud Automation</a></li>
+                  <li><a class="dropdown-item" href="#">DevOps</a></li>
+                  <li><a class="dropdown-item" href="#">FinOps</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle px-2 text-white" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">지점 소개</a>
+                <a class="nav-link dropdown-toggle px-2 text-white" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">기술</a>
                 <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                  <li><a class="dropdown-item" href="#">종로 캠퍼스</a></li>
-                  <li><a class="dropdown-item" href="#">노량진 캠퍼스</a></li>
-                  <li><a class="dropdown-item" href="#">강남 캠퍼스</a></li>
+                  <li><a class="dropdown-item" href="#">Terraform</a></li>
+                  <li><a class="dropdown-item" href="#">EKS</a></li>
+                  <li><a class="dropdown-item" href="#">CodeCommit</a></li>
                 </ul>
               </li>
-              <li><a href="#" class="nav-link px-2 text-white">수강신청</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">소개</a></li>
               <li><a href="/board/board_list.php" class="nav-link px-2 text-white">게시판</a></li>
             </ul>
 

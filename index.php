@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>KGITBANK</title>
+    <title>에너자이조</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -42,8 +42,8 @@
             <img src="/img/main1.jpg" class="d-block w-100" alt="main01">
             <div class="container">
               <div class="carousel-caption text-start">
-                <h1>IT 전문 교육기관</h1>
-                <p>정규 교육과정, 국비지원 과정, 기업 교육</p>
+                <h1>경기도미래기술학교</h1>
+                <p>클라우드 운영 및 DevOps 전문가 양성과정</p>
               </div>
             </div>
           </div>
@@ -51,8 +51,8 @@
             <img src="/img/main2.jpg" class="d-block w-100" alt="main02">
             <div class="container">
               <div class="carousel-caption">
-                <h1>AWS 트레이닝 파트너</h1>
-                <p>AWS 공인 교육 진행</p>
+                <h1>AWS, NAVER CLOUD PLATFORM 공인 교육</h1>
+                <p>클라우드 인프라 설계 및 구축</p>
               </div>
             </div>
           </div>
@@ -60,8 +60,8 @@
             <img src="/img/main3.jpg" class="d-block w-100" alt="main03">
             <div class="container">
               <div class="carousel-caption text-end">
-                <h1>우수 교육기관 선정</h1>
-                <p>고용 노동부 우수 교육 기관 선정</p>
+                <h1>Terraform, AWS EKS, Cloud Native, CI/CD</h1>
+                <p>유연하고 신뢰성 있는 클라우드 아키텍처 자동화 관리</p>
               </div>
             </div>
           </div>
@@ -86,23 +86,23 @@
         <div class="row">
           <div class="col-lg-4">
             <img src="/img/cloud.jpeg" width="250" height="180" style="padding-bottom: 10px">
-            <h4><b>AWS Cloud</b></h4>
-            <p>AWS 서비스가 클라우드 기반 솔루션에 어떻게 부합되는지에 대한 이해를 통해 AWS 클라우드를 최적화하는 방법을 배울 수 있습니다.</p>
-            <p><a class="btn btn-secondary" href="#">수강 신청 &raquo;</a></p>
+            <h4><b>Cloud Automation</b></h4>
+            <p>Terraform을 사용하여 AWS Cloud에서 EKS Cluster를 배포하고 CodeCommit, Codebuild, CodeDeploy, CodePipeline 서비스들을 사용하여 CI/CD 환경을 구성합니다.</p>
+            <p><a class="btn btn-secondary" href="#">더 알아보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
           <div class="col-lg-4">
             <img src="/img/hacking.jpeg" width="250" height="180" style="padding-bottom: 10px">
-            <h4><b>모의 해킹</b></h4>
-            <p> 개인정보 유출로 인해 정보를 효율적으로 보호할 수 있는 정보보호에 필요한 체계적인 관리와 기술을 학습하며 동시에 모의 해킹을 할 수 있는 보안의 고급 과정입니다.</p>
-            <p><a class="btn btn-secondary" href="#">수강 신청 &raquo;</a></p>
+            <h4><b>DevOps</b></h4>
+            <p>.애플리케이션 개발 팀(Dev)과 해당 IT 운영 팀(Ops) 팀 간의 원활하고 지속적인 커뮤니케이션, 협업, 통합, 가시성 및 투명성을 장려하여 애플리케이션 개발의 품질과 속도를 개선하고 신규 또는 수정된 소프트웨어 기능이나 제품의 릴리즈 주기 단축합니다.</p>
+            <p><a class="btn btn-secondary" href="#">더 알아보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
           <div class="col-lg-4">
             <img src="/img/network.jpeg" width="250" height="180" style="padding-bottom: 10px">
-            <h4><b>네트워크</b></h4>
-            <p>네트워크 설치 및 운영능력 및 SOHO(Small Office / Home Office)시장에 필요한 초급 단계의 네트워킹 지식 습득에 관한 교육과정입니다.</p>
-            <p><a class="btn btn-secondary" href="#">수강 신청 &raquo;</a></p>
+            <h4><b>FinOps</b></h4>
+            <p>엔지니어링, 재무, 기술, 비즈니스 팀이 데이터 중심 지출 결정에 협력할 수 있도록 지원함으로써 조직이 비즈니스 가치를 극대화 할 수 있도록 지원합니다.</p>
+            <p><a class="btn btn-secondary" href="#">더 알아보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
       <!-- FOOTER -->
