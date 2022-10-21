@@ -2,11 +2,31 @@
     $id   = $_POST["id"];
     $pass = $_POST["pass"];
 
-   include "dbconn.php";
-   $sql = "select * from members where id='$id'";
+   require_once "dbconn.php";
+   $sql = "select * from members where id='$id' and pass='$pass'";
    $result = mysqli_query($con, $sql);
 
    $num_match = mysqli_num_rows($result);
+
+   use Aws\DynamoDb\DynamoDbClient;
+   use Aws\DynamoDb\SessionHandler;
+
+   $az = file_get_contents('http://169.254.169.254/latest/meta-data/placement/availability-zone');
+   $region = substr($az, 0, -1);
+
+   $dynamoDb = new DynamoDbClient([
+       'region' => $region,
+       'version' => 'latest'
+   ]);
+   $sessionHandler = SessionHandler::fromClient($dynamoDb, [
+       'table_name'                    => 'sessions',
+       'hash_key'                      => 'id',
+       'data_attribute'                => 'data',
+       'data_attribute_type'           => 'string',
+       'session_lifetime'              => 3600,
+       'session_lifetime_attribute'    => 'expires',
+   ]);
+   $sessionHandler->register();
 
    if(!$num_match)
    {
@@ -20,34 +40,18 @@
     else
     {
         $row = mysqli_fetch_array($result);
-        $db_pass = $row["pass"];
-
         mysqli_close($con);
 
-        if($pass != $db_pass)
-        {
+        session_start();
+        $_SESSION["userid"] = $row["id"];
+        $_SESSION["username"] = $row["name"];
+        $_SESSION["userlevel"] = $row["level"];
+        $_SESSION["userpoint"] = $row["point"];
 
-           echo("
-              <script>
-                window.alert('비밀번호가 틀립니다!')
-                history.go(-1)
-              </script>
-           ");
-           exit;
-        }
-        else
-        {
-            session_start();
-            $_SESSION["userid"] = $row["id"];
-            $_SESSION["username"] = $row["name"];
-            $_SESSION["userlevel"] = $row["level"];
-            $_SESSION["userpoint"] = $row["point"];
-
-            echo("
-              <script>
-                location.href = 'index.php';
-              </script>
-            ");
-        }
+        echo("
+          <script>
+            location.href = 'index.php';
+          </script>
+        ");
      }
 ?>
