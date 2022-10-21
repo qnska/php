@@ -1,5 +1,4 @@
 <?php
-
     $num   = $_GET["num"];
     $page   = $_GET["page"];
 

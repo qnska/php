@@ -6,8 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <!-- <title>KGITBANK</title> -->
-    <title>에너자이조</title>
+    <title>KGITBANK</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -43,8 +42,8 @@
             <img src="/img/main1.jpg" class="d-block w-100" alt="main01">
             <div class="container">
               <div class="carousel-caption text-start">
-                <h1>Infra 전문 교육기관</h1>
-                <p>AWS 네이티브 CICD</p>
+                <h1>IT 전문 교육기관</h1>
+                <p>정규 교육과정, 국비지원 과정, 기업 교육</p>
               </div>
             </div>
           </div>
@@ -52,7 +51,7 @@
             <img src="/img/main2.jpg" class="d-block w-100" alt="main02">
             <div class="container">
               <div class="carousel-caption">
-                <h1>CICDMASTER</h1>
+                <h1>AWS 트레이닝 파트너</h1>
                 <p>AWS 공인 교육 진행</p>
               </div>
             </div>
