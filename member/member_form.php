@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>KGITBANK</title>
+    <title>에너자이조</title>
     <link rel="stylesheet" type="text/css" href="../css/common.css">
     <link rel="stylesheet" type="text/css" href="../css/member.css">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
