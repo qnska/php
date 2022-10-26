@@ -40,8 +40,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <!-- CI/CD 시연 이미지 변경 위치 시작-->
-            <img src="/img/main11.jpg" class="d-block w-100" alt="main01">
-            <!-- CI/CD 시연 이미지 변경 위치 끝-->
+            <img src="/img/main1.jpg" class="d-block w-100" alt="main01">
             <div class="container">
               <div class="carousel-caption text-start">
                 <h1>경기도미래기술학교</h1>
