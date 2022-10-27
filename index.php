@@ -40,7 +40,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <!-- CI/CD 시연 이미지 변경 위치 시작-->
-            <img src="/img/main01.jpg" class="d-block w-100" alt="main11">
+            <img src="/img/main1.jpg" class="d-block w-100" alt="main11">
             <div class="container">
               <div class="carousel-caption text-start">
                 <h1>경기도미래기술학교</h1>
@@ -49,7 +49,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="/img/main02.jpg" class="d-block w-100" alt="main12">
+            <img src="/img/main2.jpg" class="d-block w-100" alt="main12">
             <div class="container">
               <div class="carousel-caption">
                 <h1>AWS, NAVER CLOUD PLATFORM 공인 교육</h1>
@@ -58,7 +58,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="/img/main03.jpg" class="d-block w-100" alt="main13">
+            <img src="/img/main3.jpg" class="d-block w-100" alt="main13">
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1>Terraform, AWS EKS, Cloud Native, CI/CD</h1>
