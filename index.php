@@ -58,7 +58,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="/img/main3.jpg" class="d-block w-100" alt="main13">
+            <img src="/img/main13.jpg" class="d-block w-100" alt="main13">
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1>Terraform, AWS EKS, Cloud Native, CI/CD</h1>
