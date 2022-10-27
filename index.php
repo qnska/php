@@ -49,7 +49,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="/img/main2.jpg" class="d-block w-100" alt="main02">
+            <img src="/img/main12.jpg" class="d-block w-100" alt="main12">
             <div class="container">
               <div class="carousel-caption">
                 <h1>AWS, NAVER CLOUD PLATFORM 공인 교육</h1>
@@ -58,7 +58,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="/img/main3.jpg" class="d-block w-100" alt="main03">
+            <img src="/img/main13.jpg" class="d-block w-100" alt="main13">
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1>Terraform, AWS EKS, Cloud Native, CI/CD</h1>
@@ -86,21 +86,21 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <img src="/img/cloud.jpeg" width="250" height="180" style="padding-bottom: 10px">
+            <img src="/img/a.jpg" width="250" height="180" style="padding-bottom: 10px">
             <h4><b>Cloud Automation</b></h4>
             <p>Terraform을 사용하여 AWS Cloud에서 EKS Cluster를 배포하고 CodeCommit, Codebuild, CodeDeploy, CodePipeline 서비스들을 사용하여 CI/CD 환경을 구성합니다.</p>
             <p><a class="btn btn-secondary" href="#">더 알아보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
           <div class="col-lg-4">
-            <img src="/img/hacking.jpeg" width="250" height="180" style="padding-bottom: 10px">
+            <img src="/img/b.jpg" width="250" height="180" style="padding-bottom: 10px">
             <h4><b>DevOps</b></h4>
             <p>애플리케이션 개발 팀(Dev)과 해당 IT 운영 팀(Ops) 팀 간의 원활하고 지속적인 커뮤니케이션, 협업, 통합, 가시성 및 투명성을 장려하여 애플리케이션 개발의 품질과 속도를 개선하고 신규 또는 수정된 소프트웨어 기능이나 제품의 릴리즈 주기 단축합니다.</p>
             <p><a class="btn btn-secondary" href="#">더 알아보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
 
           <div class="col-lg-4">
-            <img src="/img/network.jpeg" width="250" height="180" style="padding-bottom: 10px">
+            <img src="/img/c.jpg" width="250" height="180" style="padding-bottom: 10px">
             <h4><b>FinOps</b></h4>
             <p>엔지니어링, 재무, 기술, 비즈니스 팀이 데이터 중심 지출 결정에 협력할 수 있도록 지원함으로써 조직이 비즈니스 가치를 극대화 할 수 있도록 지원합니다.</p>
             <p><a class="btn btn-secondary" href="#">더 알아보기 &raquo;</a></p>
